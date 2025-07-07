@@ -1,0 +1,13 @@
+---
+title: 'Response'
+description: 'Send a SIP Response code'
+icon: 'code'
+---
+
+## Response
+Sends a SIP response code 3xx-6xx
+### Params
+code: Integer representing SIP response code
+headers: Object objectin containging additional SIP headers for the response
+
+Will end the call handling when a response is sent, no other verbs after this will be actioned.
